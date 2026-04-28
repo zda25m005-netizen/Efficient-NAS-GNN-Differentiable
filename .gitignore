@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Data — don't commit raw datasets (large files)
+week1/data/cifar-10-batches-py/
+week1/data/cifar-10-python.tar.gz
+week1/data/cifar10/
+week1/data/NAS-Bench-201-v1_1-096897.pth
+
+# Model checkpoints (large binary files)
+week1/results/checkpoints/*.pth
+
+# Logs
+*.log
+
+# But DO commit result JSONs and plots
+!week1/results/correlation_report.json
+!week1/results/proxy_scores.json
+!week1/results/correlation_plots/
+
+# Compiled C extensions
+*.so
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# Byte-compiled
+*.pyc

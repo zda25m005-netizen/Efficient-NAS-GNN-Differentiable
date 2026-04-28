@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "n_archs": 10,
+    "best_proxy_by_spearman": "jacob_cov",
+    "best_spearman": 0.7939,
+    "ranked_proxies": [
+      "jacob_cov",
+      "naswot",
+      "snip",
+      "grad_norm",
+      "grasp",
+      "synflow",
+      "l2_norm"
+    ]
+  },
+  "per_proxy": {
+    "snip": {
+      "spearman": 0.7212,
+      "kendall": 0.5111,
+      "top10_overlap": 0.0,
+      "n_valid": 10
+    },
+    "grasp": {
+      "spearman": -0.5636,
+      "kendall": -0.4222,
+      "top10_overlap": 0.0,
+      "n_valid": 10
+    },
+    "grad_norm": {
+      "spearman": 0.5758,
+      "kendall": 0.4667,
+      "top10_overlap": 0.0,
+      "n_valid": 10
+    },
+    "synflow": {
+      "spearman": 0.5476,
+      "kendall": 0.4286,
+      "top10_overlap": 0.0,
+      "n_valid": 8
+    },
+    "naswot": {
+      "spearman": 0.7455,
+      "kendall": 0.5556,
+      "top10_overlap": 0.0,
+      "n_valid": 10
+    },
+    "jacob_cov": {
+      "spearman": 0.7939,
+      "kendall": 0.6444,
+      "top10_overlap": 1.0,
+      "n_valid": 10
+    },
+    "l2_norm": {
+      "spearman": 0.3939,
+      "kendall": 0.2889,
+      "top10_overlap": 0.0,
+      "n_valid": 10
+    }
+  },
+  "gt_stats": {
+    "min": 60.0,
+    "max": 94.0,
+    "mean": 80.85717842264714,
+    "std": 9.91673052724333
+  }
+}

@@ -1,0 +1,17 @@
+# Week 1: Foundation
+# Install with: pip install -r requirements.txt
+
+# Core deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional: NAS-Bench-201 API (requires benchmark .pth file)
+# pip install nas-bench-201
+# Benchmark file: https://drive.google.com/file/d/16Y0UwGisiouVRxW-W5hEtbxmcHc_kkma
